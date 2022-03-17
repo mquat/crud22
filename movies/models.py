@@ -12,7 +12,7 @@ class Actor(models.Model):
 
 class Movie(models.Model):
     title = models.CharField(max_length=45)
-    release_Date = models.DateField()
+    release_date = models.DateField()
     running_time = models.IntegerField()
 
     class Meta:
