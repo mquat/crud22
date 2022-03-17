@@ -11,7 +11,7 @@ class Actor(models.Model):
         db_table = 'actors'
 
 class Movie(models.Model):
-    title = models.CharField(max_length=45)
+    title        = models.CharField(max_length=45)
     release_Date = models.DateField()
     running_time = models.IntegerField()
 
